@@ -1,11 +1,6 @@
-.link-item {
-  position: absolute;
-  top: 20px;
-  right: 70px;
-  text-transform: uppercase;
-  text-decoration: none;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 700;
+.action {
+  font: 700 .875rem 'Montserrat', sans-serif;
   color: #707070;
-  font-size: .875rem;
+  text-decoration: none;
+  text-transform: uppercase;
 }
