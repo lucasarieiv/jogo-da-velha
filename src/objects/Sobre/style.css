@@ -1,0 +1,10 @@
+.sobre {
+    position: absolute;
+    top: 20px;
+    right: 70px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+    color: #707070;
+  }
