@@ -1,13 +1,10 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
 
+import Header from './components/Header';
 function App() {
-  return (
-    <div className="App">
-      <a className="link-item" href="#">Sobre</a>
-    </div>
-  );
+    return (
+        <Header />
+    );
 }
 
 export default App;

@@ -1,0 +1,14 @@
+:root {
+    --color-negative: #3a4042;/* Cor mais proxima do preto */
+    --color-zero: #fff; /* Cor mais próxima do branco, ou branca */
+    --color-first: #f25a70; /* Cor mais usada na aplicação*/
+
+    --color-second: #eeeeee;
+    --color-third: #9b9b9b;
+    --color-fourth: #707070;
+    --color-fifth: #828282;
+
+    --color-sixth: #fffcee;
+    --color-seventh: #f4f1e4;
+    --color-eight: #eae6da;
+}
