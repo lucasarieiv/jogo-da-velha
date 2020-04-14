@@ -1,5 +1,5 @@
 import React from 'react';
-import './style.css';
+import './styles.css';
 
 const Sobre = () => {
     return (<a className="sobre" href="#">Sobre</a>);

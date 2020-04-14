@@ -1,5 +1,5 @@
 import React from 'react';
-import './style.css';
+import './styles.css';
 
 const Menu = () => (
         <a href="#menu" className="menu"><span className="center">Menu</span></a>
