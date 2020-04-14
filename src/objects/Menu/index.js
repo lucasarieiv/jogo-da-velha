@@ -1,10 +1,8 @@
 import React from 'react';
 import './style.css';
 
-const Menu = () => {
-    return (
-        <div className="menu-hamburguer">Menu</div>
-    )
-}
+const Menu = () => (
+        <a href="#menu" className="menu"><span className="center">Menu</span></a>
+    );
 
 export default Menu
