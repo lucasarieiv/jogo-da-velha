@@ -1,9 +1,0 @@
-.symbolO {
-    width: 100%;
-    height: 100%;
-    text-indent: -9999px;
-    box-sizing: border-box;
-    border-radius: 50%;
-    background-color:transparent;
-    border: 6px solid var(--color-fourth);
-}

@@ -1,5 +1,6 @@
 :root {
     --color-negative: #3a4042;/* Cor mais proxima do preto */
+    --color-light-negative: rgba(58, 64, 66, .1);
     --color-zero: #fff; /* Cor mais próxima do branco, ou branca */
     --color-first: #f25a70; /* Cor mais usada na aplicação*/
 
