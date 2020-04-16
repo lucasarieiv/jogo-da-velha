@@ -3,7 +3,7 @@ import './styles.css';
 
 const SymbolO = () => (
     <div className="symbolO">
-        Simbolo O
+        Simbolo 0
     </div>
 )
 
