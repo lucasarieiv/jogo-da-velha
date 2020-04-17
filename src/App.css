@@ -1,6 +1,15 @@
-.action {
-  font: 700 .875rem 'Montserrat', sans-serif;
-  color: #707070;
-  text-decoration: none;
-  text-transform: uppercase;
+.app {
+    text-align: center;
+}
+
+.app > .header {
+    width: 90vw;
+    margin: 0 auto 85px auto;
+}
+
+.app > .card {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 90vw;
+    height: 90vw;
 }
