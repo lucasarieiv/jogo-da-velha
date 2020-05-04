@@ -1,0 +1,25 @@
+.close {
+    display: block;
+    text-indent: -9999px;
+    position: relative;
+    transform: translateY(-40%);
+}
+
+.close::before, .close::after {
+    content: '';
+    display: block;
+    background-color: var(--color-zero);
+    height: 4px;
+    width: 100%;
+    border-radius: 2px;
+}
+
+.close::before {
+    transform: rotate(45deg);
+    position: absolute;
+    bottom: 0;
+}
+
+.close::after {
+    transform: rotate(-45deg);
+}

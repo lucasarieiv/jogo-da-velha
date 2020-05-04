@@ -17,7 +17,7 @@ const About = ()=> (
     <main className="about">
         <Header image={CollabCodeWhite} />
         <Avatar avatarImage="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80"/>
-        <Title content="Lucas Vieira" />
+        <Title content="Giovanna Silva" />
         <Texts content="Migrei de palhaço para Dev. Front-End/UX e agora eu trabalho na comunidade da Impulso" />
         <SocialMedia link="#" img={Github} />
         <SocialMedia link="#" img={In} />

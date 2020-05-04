@@ -11,6 +11,6 @@
     margin-right: 10px;
 }
 
-.header > .menu {
+.header > .menu, .close {
     width: 25px;
 }
