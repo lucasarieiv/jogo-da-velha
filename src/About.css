@@ -2,4 +2,45 @@
     background-color: var(--color-negative);
     text-align: center;
     height: 100vh;
+    text-align: center;
+}
+
+.about > .header {
+    width: 90vw;
+    margin: 0 auto 115px auto;
+}
+
+.about > .header > .sobre {
+    color: var(--color-zero);
+}
+
+.about > .header >
+.menu::before,
+.menu > .center,
+.menu::after {
+    background-color: var(--color-zero);
+}
+
+.about > .avatar {
+    margin: 0 auto;
+    width: 130px;
+    height: 130px;
+}
+
+.about > .title {
+    margin: 20px 0 15px 0;
+}
+
+.about > .texts {
+    width: 80vw;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.about > .social-media {
+    margin-right: 13px;
+}
+
+.about > .social-media:last-child {
+    margin: 0;
 }

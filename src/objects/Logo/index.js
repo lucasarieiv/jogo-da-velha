@@ -1,9 +1,8 @@
 import React from 'react';
-import CollabCode from '../../img/logo.png';
 
-const Logo = () => {
+const Logo = ({src}) => {
     return (
-        <img src={CollabCode} alt="Logo da CollabCode"/>
+        <img src={src} alt="Logo da CollabCode"/>
     )
 }
 
