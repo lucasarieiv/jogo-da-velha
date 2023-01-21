@@ -5,7 +5,6 @@ import Player from '../../objects/Player';
 
 const Hashtag = () => {
     const [turn, setTurn] = useState('x');
-    const [move, setMove] = useState(0);
 
     let winnerMap = [
         [0,1,2],
@@ -37,6 +36,7 @@ const Hashtag = () => {
     )
 
     function verifyWinner() {
+        console.log('Entoru aqui novamente');
         for (let winnerSequence of winnerMap) {
             let countX = 0;
             let countO = 0;
@@ -52,18 +52,21 @@ const Hashtag = () => {
                 break;
             } else if (countO === 3) {
                 console.log('O Vencedor')
+                break;
             }
 
         }
     }
 
-    function setMoviment() {
-        let count = move + 1;
-        setMove(count);
+    function getMove() {
+        let totalMoves = hashGame.filter(hash => hash.play !== '').length;
+
+        return totalMoves;
     }
 
     function verifyMovimentCount() {
-        if (move >= 5) {
+        const totalMoves = getMove()
+        if (totalMoves >= 5) {
             verifyWinner()
         }
     }
@@ -84,9 +87,6 @@ const Hashtag = () => {
         } else {
             setTurn('x')
         }
-
-        setMoviment()
-
     }
 
     verifyMovimentCount()
